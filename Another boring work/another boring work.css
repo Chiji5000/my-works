@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lora,007 GoldenEye,Montserrat,Architects_Daughter;
+	src:url(C:\Users\HP\Documents\web-designing);
+}
+body{
+	background: #111;
+}
+.nav-items{
+	padding: 1em;
+}
+.navbar-brand{
+	font-weight: 800;
+	font-size: 1.9rem;
+}
+.nav-links{
+	color: rgb(114, 114, 114); 
+	font-weight: 400;
+	font-family: Open_Sans,Raleway,Staatliches;
+	src:url(C:\Users\HP\Documents\web-designing);
+	font-size: 1.5rem;
+}
+.nav-links:hover{
+	color: rgb(8,8,8);
+	text-decoration-color: black;
+	font-weight: 600;
+}
+.banner{
+	position: absolute;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .content{
+	position: relative;
+	max-width: 900px;
+	text-align: center;
+	z-index: 1;
+}
+.banner .content h2{
+	color: #fff;
+	font-size: 3.9rem;
+	font-weight: 600;
+	font-family: Syne_Mono,Syne_Mono;
+	src:url(C:\Users\HP\Documents\web-designing);
+}
+.banner .content p{
+	font-family: Itim;
+	src:url(C:\Users\HP\Documents\web-designing);
+	font-size: 1.8rem;
+	color: #fff;
+}
+.fitbg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.8;
+}
+.btn{
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 10px 30px;
+	background: #fff;
+	color: #333;
+	text-decoration: none;
+	font-weight: 600;
+}
+.btn:hover{
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+}
+.btn1{
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 10px 30px;
+	background: #fff;
+	color: #333;
+	text-decoration: none;
+	font-weight: 600;
+}
+.btn1:hover{
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.About{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 59em;
+}
+.About .contentbx{
+	max-width: 50%;
+	width: 50%;
+	text-align: end;
+	padding-right: 90px;
+	margin-top: 5em;
+}
+.Tite-Text{
+	font-weight: 600;
+	color: #fff;
+	font-size: 2rem;
+	font-family: Syne_Mono,Raleway,Architects_Daughter;
+	src:url(C:\Users\HP\Documents\web-designing);
+}
+.contentbx{
+	margin-bottom: 300px;
+	margin-left: -2em;
+	padding-right: 2em;
+}
+.text {
+	color: #fff;
+	font-size: 1em;
+	font-family: Itim,Architects_Daughter,Lora;
+	src:url(C:\Users\HP\Documents\web-designing);
+}
+.about .imgbx{
+	position: relative;
+	min-width: 50%;
+	width: 50%;
+	min-height:500px; 
+}
+.imgbx{
+	margin-bottom: 19em;
+}
+.banner2{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.destination{
+	text-align: center;
+}
+.destination .conetnt{
+	text-align: center;
+}
+.destination .PotraitList{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.destination .PotraitList .box{
+	position: relative;
+	min-width: 350px;
+	height: 480px;
+	background: #191919;
+	transition: 0.5s;
+	margin: 10px; 
+}
+.destination .PotraitList:hover .box{
+	opacity: 0.2;
+	cursor: pointer;
+
+}
+.copy-rights{
+	margin-top: 50px;
+	color: #fff;
+	font-size: 1.7rem;
+	font-weight: 500; 
+	text-align: center;
+	font-family: Architects_Daughter,Lora;
+	src:url(C:\Users\HP\Documents\web-designing);
+}
+.banner3{
+	position: relative;
+	width: 100%;
+	min-height: 65vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	margin-top: 3em; 
+	flex-direction: column;
+}
+.banner3 .social-media{
+	position: relative;
+	max-width: 900px;
+	text-align: center;
+	z-index: 1;
+	cursor: pointer;
+}
+.social-media img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.banner3:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to top,#111,transparent);
+	left: 0;
+}
+.banner3:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 300px;
+	z-index: 1;
+	background: linear-gradient(to bottom,#111,transparent);
+	left: 0;
+}
+
+#media1{
+	margin-right: 3em;
+}
+#media3{
+	margin-left: 3em;
+}
+#media1:hover{
+	filter: invert(1);
+	cursor: pointer;
+}
+#media2:hover{
+	filter: invert(1);
+	cursor: pointer;
+}
+#media3:hover{
+	filter: invert(1);
+	cursor: pointer;
+}
+
+
+
+
+
+
+@media(min-width: 1100px){
+	#pic1{
+	margin-left: 0em;
+}
+#box1{
+	margin-left: 60em;
+	bottom: -18em;
+}
+#pic2{
+	margin: 0em;
+}
+#box2{
+	margin: -100em;
+	bottom: 0em;
+}
+#pic3{
+	margin-top: 0em;
+}
+#box3{
+	margin: -80em;
+	margin-left: -140em;
+	top: -2.5em;
+}
+#btn2{
+	margin: 20em;
+}
+.banner2:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to top,#111,transparent);
+	left: 0;
+}
+.banner2:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to bottom,#111,transparent);
+	left: 0;
+}
+.banner:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to top,#111,transparent);
+	left: 0;
+}
+.conetnt{
+	margin-top: 20em;
+}
+.banner3{
+	width: 100%;
+	min-height: 90vh;
+}
+.social-media img{
+	margin-top: 5em;
+}
+}
+@media (max-width: 800px){
+	#btn1:hover{
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	padding: 10em;
+	}
+	.imgbx img{
+		width: 300px;
+		margin-bottom: -10em;
+		padding-right: 2.5em;
+		margin-right: -4em;
+	}
+	.imgbx{
+		margin-right: -2em;
+	}
+	.contentbx{
+		margin-left: -3.1em;
+		flex-wrap: wrap;
+	}
+	.Tite-Text {
+		margin-left: 2.0em;
+	}
+	#text1{
+		margin-left: -2.8em;
+		padding-left: 3.5em;
+	}
+	.About{
+	position: absolute;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 49em;
+}
+.conetnt{
+	margin-top: 120em;
+}
+
+#fitbg2{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.8;
+	top: 110em;
+}
+.banner2:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to top,#111,transparent);
+	left: 0;
+}
+.banner2:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	background: linear-gradient(to bottom,#111,transparent);
+	left: 0;
+}
+.destination .PotraitList .box{
+	position: relative;
+	min-width: 350px;
+	height: 480px;
+	background: #191919;
+	transition: 0.5s;
+	margin: 10px; 
+}
+.destination .conetnt{
+	text-align: center;
+}
+.destination .PotraitList{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.destination .PotraitList  img{
+	width: 120%;
+	min-width: 120%;
+}
+.btn1{
+	position: relative;
+	display: inline-block;
+	top: 10em;
+	padding: 10px 30px;
+	background: #fff;
+	color: #333;
+	text-decoration: none;
+	font-weight: 600;
+}
+.btn1:hover{
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.banner3{
+	margin-top: 6em; 
+}
+.banner3:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 1;
+	background: linear-gradient(to bottom,#111,transparent);
+	left: 0;
+}
+.social-media img{
+	margin-top: 5em;
+}
+}
