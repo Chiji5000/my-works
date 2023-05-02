@@ -1,0 +1,496 @@
+/**** This is for top header ***/
+
+.contain {
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: space-between !important;
+    border: 2px solid aliceblue;
+    z-index: 1;
+    box-shadow: 2px 2px 2px 2px rgb(250, 247, 247);
+}
+
+#first-word {
+    color: rgb(255, 208, 0);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    margin-left: 5px;
+}
+
+@media(max-width: 950px) {
+    #first-word h1 {
+        font-size: 20px !important;
+    }
+    #second-word {
+        font-size: 5px !important;
+    }
+    #second-word h1 {
+        font-size: 20px !important;
+        margin-left: 10px !important;
+    }
+    #second-word span {
+        font-size: 5px !important;
+    }
+    #third-word h1 {
+        font-size: 20px !important;
+    }
+}
+
+#first-word h1 {
+    font-size: 40px;
+    text-align: center !important;
+    margin-top: 10px;
+    font-weight: 900 !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+#second-word {
+    align-self: center !important;
+    color: #16B4E5;
+    font-size: 10px;
+}
+
+#second-word h1 {
+    font-size: 30px;
+}
+
+#second-word span {
+    color: grey;
+    font-size: 18px !important;
+}
+
+#third-word {
+    align-content: flex-end !important;
+    color: #16B4E5;
+    margin-right: 7px;
+    font-size: 10px;
+}
+
+#third-word h1 {
+    font-size: 30px;
+}
+
+#third-word i {
+    color: darkgrey;
+}
+
+
+/**** This is for sidebar ***/
+
+.sidebar-sticky {
+    border-radius: 5px;
+    z-index: 1 !important;
+    box-shadow: 0 0 5px 2px gray !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-item {
+    padding: 10px !important;
+}
+
+.nav-link {
+    color: gray !important;
+    font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    z-index: 1 !important;
+    border: 1px solid #111;
+    color: #111 !important;
+    box-shadow: 2px 2px 2px 2px darkgrey !important;
+    font-weight: 900 !important;
+}
+
+
+/**** This is for the 2 boxes ***/
+
+.boxes {
+    display: flex !important;
+    align-items: stretch;
+    justify-content: space-around !important;
+}
+
+
+/**** This is for the 2 boxes ***/
+
+.boxes {
+    display: flex !important;
+    align-items: stretch;
+    justify-content: space-around !important;
+}
+
+
+/**** This is for the first boxes ***/
+
+.box-1 {
+    width: 500px;
+    height: 550px;
+    z-index: 1 !important;
+    border: 1px solid azure;
+    box-shadow: 2px 2px 2px 2px darkgrey !important;
+    padding: 10px;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.btn3 {
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+}
+
+.btn3:hover {
+    cursor: none !important;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading h5:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+.all-Payment {
+    font-weight: bold;
+}
+
+.all-btn {
+    display: flex;
+}
+
+.all-btn img {
+    width: 20px !important;
+    height: 20px !important;
+    float: left !important;
+}
+
+#sell {
+    margin-left: 30px !important;
+}
+
+#tether {
+    margin-left: 30px !important;
+}
+
+.btn4 {
+    background-color: white !important;
+    border: 1px solid cornflowerblue !important;
+    color: black !important;
+    font-weight: 400;
+    padding: 15px !important;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 100px;
+}
+
+.btn4:hover {
+    color: black !important;
+}
+
+.excla img {
+    width: 18px;
+    height: 18;
+}
+
+.custom-select {
+    width: 100% !important;
+    font-weight: 500 !important;
+    font-style: italic;
+    height: 40% !important;
+}
+
+.btn2 {
+    width: 80% !important;
+    height: 30% !important;
+    padding: 10px;
+    margin-top: 20%;
+    background-color: #16B4E5 !important;
+    border: none !important;
+}
+
+@media(min-height: 1100px) {
+    #btn1 {
+        margin-bottom: -40% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #btn1 {
+        margin-bottom: -70% !important;
+    }
+}
+
+.btn2 span {
+    font-weight: bolder !important;
+    text-transform: capitalize !important;
+    font-size: 100% !important;
+    text-align: center;
+}
+
+.btn2 i {
+    float: left !important;
+}
+
+@media(max-width: 999px),
+(max-height: 999px) {
+    #btn1 {
+        margin-top: 35% !important;
+    }
+}
+
+@media(min-width: 1000px) {
+    #btn1 {
+        margin-top: 21% !important;
+    }
+}
+
+
+/**** This is for the second button (Gift - Card box)***/
+
+#btn2 {
+    width: 30% !important;
+    height: 40% !important;
+    margin-top: -30%;
+    margin-left: 66%;
+}
+
+hr {
+    border-width: 2px 0 0 0 !important;
+}
+
+.paymethod {
+    width: 100% !important;
+    height: 45px !important;
+    background-color: rgba(224, 223, 223, 0.192);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ececec;
+    border-radius: 5px;
+    float: left;
+}
+
+#apm {
+    float: left;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.651);
+    margin-left: 5px;
+    font-size: medium;
+    font-weight: lighter;
+    margin-top: 0.8em;
+}
+
+.shabox {
+    width: 100px;
+    height: 35px;
+    float: right;
+    margin-top: -4px;
+    margin-right: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #16B4E5;
+    border-radius: 5px;
+}
+
+.shabox2 {
+    width: 170px;
+    height: 35px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #16B4E5;
+    border-radius: 5px;
+}
+
+#sha {
+    float: right;
+    color: rgba(0, 0, 0, 0.651);
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+/**** This is for the second boxes (Gift - Card box)***/
+
+@media(max-width: 700px) {
+    .box-2 {
+        margin-top: 28px!important;
+    }
+}
+
+.box-2 {
+    width: 500px;
+    height: 550px;
+    z-index: 1 !important;
+    border: 1px solid azure;
+    box-shadow: 2px 2px 2px 2px darkgrey !important;
+    padding: 10px;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.payments {
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: space-between !important;
+}
+
+.header {
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center !important;
+}
+
+.header h3 {
+    color: #16B4E5;
+    font-weight: 800 !important;
+}
+
+.header span {
+    color: #111;
+}
+
+.open h4 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.headings {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.Trade-Info {
+    z-index: 1;
+    width: 35%;
+    border: 3px solid grey;
+    border-radius: 12px;
+    height: 29%;
+}
+
+.Trade-Info h3 {
+    color: rgb(130, 130, 130);
+    font-size: 0.7rem;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+#trade {
+    font-size: 1.4rem;
+    padding-top: 12px;
+    color: #16B4E5;
+    font-weight: bolder;
+}
+
+#exchange-rate {
+    color: black;
+    font-size: 1.1rem;
+}
+
+#amount {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #16B4E5;
+    font-weight: bolder;
+}
+
+#payouts {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    color: #16B4E5;
+    font-weight: bolder;
+}
+
+#exchange-rate span {
+    color: #16B4E5;
+    font-weight: bolder;
+}
+
+.dd-select {
+    height: 50px;
+    width: 170% !important;
+}
+
+.dd-options {
+    height: 250px;
+    width: 170% !important;
+}
+
+@media(max-width: 1200px) {
+    .dd-select {
+        width: 140% !important;
+    }
+    .dd-options {
+        width: 140% !important;
+    }
+    .range input {
+        width: 90% !important;
+    }
+    .range input::placeholder {
+        width: 90% !important;
+    }
+    .Trade-Info h3 {
+        font-size: 0.5rem;
+        margin-top: 1em;
+    }
+    #trade {
+        font-size: 1.1rem;
+        padding-top: 12px;
+    }
+    #exchange-rate {
+        color: black;
+        font-size: 0.9rem;
+    }
+    #amount {
+        font-size: 1rem;
+    }
+    #payouts {
+        margin-top: 50px;
+        font-size: 0.9rem;
+    }
+    #master {
+        font-size: 2% !important;
+    }
+}
+
+.range::placeholder {
+    font-weight: 700 !important;
+}
+
+.range input {
+    width: 113%;
+}
+
+.range input::placeholder {
+    color: black;
+    font-weight: 800;
+    text-align: center;
+}
+
+.range {
+    margin-top: -5%;
+}
