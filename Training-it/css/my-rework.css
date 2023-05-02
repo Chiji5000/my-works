@@ -1,0 +1,295 @@
+    /**** This is for top header ***/
+    
+    .contain {
+        display: flex !important;
+        align-items: stretch !important;
+        justify-content: space-between !important;
+        border: 2px solid aliceblue;
+        z-index: 1;
+        box-shadow: 2px 2px 2px 2px rgb(250, 247, 247);
+    }
+    
+    #first-word {
+        border: 2px solid rgb(126, 124, 124) !important;
+        color: gray;
+        margin-left: 5px;
+    }
+    
+    @media(max-width: 950px) {
+        #first-word h1 {
+            font-size: 20px !important;
+        }
+        #second-word {
+            font-size: 5px !important;
+        }
+        #second-word h1 {
+            font-size: 20px !important;
+        }
+        #second-word span {
+            font-size: 11px !important;
+        }
+        #third-word h1 {
+            font-size: 20px !important;
+        }
+    }
+    
+    #first-word h1 {
+        font-size: 30px;
+        text-align: center !important;
+        margin-top: 10px;
+        font-weight: 900 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    
+    #second-word {
+        align-self: center !important;
+        color: #16B4E5;
+        font-size: 10px;
+    }
+    
+    #second-word h1 {
+        font-size: 30px;
+    }
+    
+    #second-word span {
+        color: grey;
+        font-size: 21px !important;
+    }
+    
+    #third-word {
+        align-content: flex-end !important;
+        color: #16B4E5;
+        margin-right: 7px;
+        font-size: 10px;
+    }
+    
+    #third-word h1 {
+        font-size: 30px;
+    }
+    
+    #third-word i {
+        color: darkgrey;
+    }
+    /**** This is for sidebar ***/
+    
+    .sidebar-sticky {
+        border-radius: 5px;
+        z-index: 1 !important;
+        box-shadow: 0 0 5px 2px gray !important;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+    .nav-item {
+        padding: 10px !important;
+    }
+    
+    .nav-link {
+        color: gray !important;
+        font-weight: 600 !important;
+    }
+    
+    .nav-link:hover {
+        z-index: 1 !important;
+        border: 1px solid #111;
+        color: #111 !important;
+        box-shadow: 2px 2px 2px 2px darkgrey !important;
+        font-weight: 900 !important;
+    }
+    /**** This is for the 2 boxes ***/
+    
+    .boxes {
+        display: flex !important;
+        align-items: stretch;
+        justify-content: space-around !important;
+    }
+    /**** This is for the first boxes ***/
+    
+    .box-1 {
+        width: 500px;
+        height: 500px;
+        z-index: 1 !important;
+        border: 1px solid azure;
+        box-shadow: 2px 2px 2px 2px darkgrey !important;
+        padding: 10px;
+        border-radius: 15px !important;
+        -webkit-border-radius: 15px !important;
+        -moz-border-radius: 15px !important;
+        -ms-border-radius: 15px !important;
+        -o-border-radius: 15px !important;
+    }
+    
+    .btn3 {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        width: 150px;
+        text-align: center;
+        height: 40px;
+    }
+    
+    .btn3:hover {
+        cursor: none !important;
+    }
+    
+    .heading {
+        display: flex;
+    }
+    
+    .heading h5:hover {
+        cursor: pointer !important;
+        text-decoration: underline !important;
+    }
+    
+    .all-Payment {
+        font-weight: bold;
+    }
+    
+    .all-btn {
+        display: flex;
+    }
+    
+    .all-btn img {
+        width: 20px !important;
+        height: 20px !important;
+        float: left !important;
+    }
+    
+    #sell {
+        margin-left: 30px !important;
+    }
+    
+    #tether {
+        margin-left: 30px !important;
+    }
+    
+    .btn4 {
+        background-color: white !important;
+        border: 1px solid cornflowerblue !important;
+        color: black;
+        font-weight: 400;
+        padding: 15px !important;
+        z-index: 1;
+        box-shadow: 1px 1px 1px 1px grey;
+        width: 100px;
+    }
+    
+    .btn4:hover {
+        color: black !important;
+    }
+    
+    .excla img {
+        width: 18px;
+        height: 18;
+    }
+    
+    .custom-select {
+        width: 100% !important;
+        font-weight: 500 !important;
+        font-style: italic;
+        height: 40% !important;
+    }
+    
+    .btn2 {
+        width: 100% !important;
+        height: 30% !important;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    
+    .btn2 span {
+        float: right !important;
+        font-weight: bolder !important;
+        text-transform: capitalize !important;
+        font-size: 100% !important;
+    }
+    
+    .btn2 i {
+        float: left !important;
+    }
+    /**** This is for the second button (Gift - Card box)***/
+    
+    #btn2 {
+        margin-top: 6% !important;
+    }
+    
+    hr {
+        border-width: 2px 0 0 0;
+    }
+    /**** This is for the second boxes (Gift - Card box)***/
+    
+    @media(max-width: 750px) {
+        .box-2 {
+            margin-top: 26px !important;
+        }
+    }
+    
+    @media(max-width: 950px) {
+        #none {
+            display: none !important;
+        }
+    }
+    
+    @media(max-width: 750px) {
+        #none {
+            display: contents !important;
+        }
+    }
+    
+    .box-2 {
+        width: 500px;
+        height: 500px;
+        z-index: 1 !important;
+        border: 1px solid azure;
+        box-shadow: 2px 2px 2px 2px darkgrey !important;
+        padding: 10px;
+        border-radius: 15px !important;
+        -webkit-border-radius: 15px !important;
+        -moz-border-radius: 15px !important;
+        -ms-border-radius: 15px !important;
+        -o-border-radius: 15px !important;
+    }
+    
+    .pictures {
+        display: flex !important;
+        justify-content: space-around;
+    }
+    
+    .pictures img {
+        width: 40% !important;
+        height: 100% !important;
+    }
+    
+    .pictures2 {
+        display: flex !important;
+        justify-content: space-around;
+        padding-bottom: 30px !important;
+    }
+    
+    .pictures2 img {
+        width: 40% !important;
+        height: 100% !important;
+    }
+    
+    .pictures img:hover {
+        cursor: pointer !important;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    
+    .pictures2 img:hover {
+        cursor: pointer !important;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }

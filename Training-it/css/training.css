@@ -1,0 +1,203 @@
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+
+/* Fade in tabs */
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.box-1 {
+    width: 500px;
+    height: 550px;
+    z-index: 1 !important;
+    border: 1px solid azure;
+    box-shadow: 2px 2px 2px 2px darkgrey !important;
+    padding: 10px;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.btn3 {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+}
+
+.btn3:hover {
+    cursor: none !important;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading h5:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+.all-Payment {
+    font-weight: bold;
+}
+
+.all-btn {
+    display: flex;
+}
+
+.all-btn img {
+    width: 20px !important;
+    height: 20px !important;
+    float: left !important;
+}
+
+#sell {
+    margin-left: 30px !important;
+}
+
+#tether {
+    margin-left: 30px !important;
+}
+
+.btn4 {
+    background-color: white !important;
+    border: 1px solid cornflowerblue !important;
+    color: black;
+    font-weight: 400;
+    padding: 15px !important;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 100px;
+}
+
+.btn4:hover {
+    color: black !important;
+}
+
+.excla img {
+    width: 18px;
+    height: 18;
+}
+
+.custom-select {
+    width: 100% !important;
+    font-weight: 500 !important;
+    font-style: italic;
+    height: 40% !important;
+}
+
+.btn2 {
+    width: 100% !important;
+    height: 30% !important;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn2 span {
+    float: right !important;
+    font-weight: bolder !important;
+    text-transform: capitalize !important;
+    font-size: 100% !important;
+}
+
+.btn2 i {
+    float: left !important;
+}
+
+
+/**** This is for the second button (Gift - Card box)***/
+
+#btn2 {
+    margin-top: 6% !important;
+}
+
+hr {
+    border-width: 2px 0 0 0;
+}
+
+
+/**** This is for the second boxes (Gift - Card box)***/
+
+@media(max-width: 750px) {
+    .box-2 {
+        margin-top: 26px !important;
+    }
+}
+
+@media(max-width: 950px) {
+    #none {
+        display: none !important;
+    }
+}
+
+@media(max-width: 750px) {
+    #none {
+        display: contents !important;
+    }
+}
